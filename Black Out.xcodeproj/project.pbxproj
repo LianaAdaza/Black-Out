@@ -20,6 +20,8 @@
 		5592268124BF599B00FB09D9 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592268024BF599B00FB09D9 /* DesignableView.swift */; };
 		5592268324BF777700FB09D9 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592268224BF777600FB09D9 /* StartingViewController.swift */; };
 		5592268524BF77AA00FB09D9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592268424BF77AA00FB09D9 /* SignUpViewController.swift */; };
+		5592268824BFF16C00FB09D9 /* BusinessDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592268724BFF16C00FB09D9 /* BusinessDB.swift */; };
+		5592268B24BFF20300FB09D9 /* BusinessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592268A24BFF20300FB09D9 /* BusinessTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		5592268024BF599B00FB09D9 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		5592268224BF777600FB09D9 /* StartingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
 		5592268424BF77AA00FB09D9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5592268724BFF16C00FB09D9 /* BusinessDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDB.swift; sourceTree = "<group>"; };
+		5592268A24BFF20300FB09D9 /* BusinessTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,20 +76,46 @@
 			children = (
 				558D8E8D24BCBDDC00752C9B /* AppDelegate.swift */,
 				558D8E8F24BCBDDC00752C9B /* SceneDelegate.swift */,
+				5592268624BFF13000FB09D9 /* Models */,
+				5592268924BFF1ED00FB09D9 /* Views */,
+				55B1187D24C003B70029C23E /* Controllers */,
 				558D8E9324BCBDDC00752C9B /* Main.storyboard */,
 				558D8E9924BCBDDE00752C9B /* Assets.xcassets */,
-				5592268224BF777600FB09D9 /* StartingViewController.swift */,
-				5592268424BF77AA00FB09D9 /* SignUpViewController.swift */,
-				5581E7A224BE238600A964F4 /* MVPViewController.swift */,
-				5581E7A424BE23CB00A964F4 /* SoFloViewController.swift */,
-				5581E7A624BE23E800A964F4 /* CentralViewController.swift */,
-				5581E7A824BE23F600A964F4 /* PanhandleViewController.swift */,
 				558D8E9B24BCBDDE00752C9B /* LaunchScreen.storyboard */,
 				558D8E9E24BCBDDE00752C9B /* Info.plist */,
 				558D8E9624BCBDDC00752C9B /* Black_Out.xcdatamodeld */,
 				5592268024BF599B00FB09D9 /* DesignableView.swift */,
 			);
 			path = "Black Out";
+			sourceTree = "<group>";
+		};
+		5592268624BFF13000FB09D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5592268724BFF16C00FB09D9 /* BusinessDB.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5592268924BFF1ED00FB09D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5592268A24BFF20300FB09D9 /* BusinessTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55B1187D24C003B70029C23E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5592268224BF777600FB09D9 /* StartingViewController.swift */,
+				5592268424BF77AA00FB09D9 /* SignUpViewController.swift */,
+				5581E7A224BE238600A964F4 /* MVPViewController.swift */,
+				5581E7A424BE23CB00A964F4 /* SoFloViewController.swift */,
+				5581E7A624BE23E800A964F4 /* CentralViewController.swift */,
+				5581E7A824BE23F600A964F4 /* PanhandleViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,9 +194,11 @@
 				5581E7A324BE238600A964F4 /* MVPViewController.swift in Sources */,
 				558D8E8E24BCBDDC00752C9B /* AppDelegate.swift in Sources */,
 				5592268524BF77AA00FB09D9 /* SignUpViewController.swift in Sources */,
+				5592268B24BFF20300FB09D9 /* BusinessTableViewCell.swift in Sources */,
 				5581E7A524BE23CB00A964F4 /* SoFloViewController.swift in Sources */,
 				558D8E9824BCBDDC00752C9B /* Black_Out.xcdatamodeld in Sources */,
 				5581E7A724BE23E800A964F4 /* CentralViewController.swift in Sources */,
+				5592268824BFF16C00FB09D9 /* BusinessDB.swift in Sources */,
 				558D8E9024BCBDDC00752C9B /* SceneDelegate.swift in Sources */,
 				5581E7A924BE23F600A964F4 /* PanhandleViewController.swift in Sources */,
 			);
