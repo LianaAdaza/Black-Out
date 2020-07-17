@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55335F7424C0EAFD004FCA86 /* BusinessPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55335F7324C0EAFD004FCA86 /* BusinessPageViewController.swift */; };
+		55799A8A24C0C370006AFF64 /* MessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55799A8924C0C370006AFF64 /* MessagesTableViewController.swift */; };
+		55799A8C24C0C39F006AFF64 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55799A8B24C0C39F006AFF64 /* Messages.swift */; };
+		55799A8E24C0C3D9006AFF64 /* NewMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55799A8D24C0C3D9006AFF64 /* NewMessageViewController.swift */; };
+		55799A9024C0C408006AFF64 /* ConvoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55799A8F24C0C408006AFF64 /* ConvoViewController.swift */; };
 		5581E7A324BE238600A964F4 /* MVPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5581E7A224BE238600A964F4 /* MVPViewController.swift */; };
 		5581E7A524BE23CB00A964F4 /* SoFloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5581E7A424BE23CB00A964F4 /* SoFloViewController.swift */; };
 		5581E7A724BE23E800A964F4 /* CentralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5581E7A624BE23E800A964F4 /* CentralViewController.swift */; };
@@ -25,6 +30,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55335F7324C0EAFD004FCA86 /* BusinessPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessPageViewController.swift; sourceTree = "<group>"; };
+		55799A8924C0C370006AFF64 /* MessagesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableViewController.swift; sourceTree = "<group>"; };
+		55799A8B24C0C39F006AFF64 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		55799A8D24C0C3D9006AFF64 /* NewMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageViewController.swift; sourceTree = "<group>"; };
+		55799A8F24C0C408006AFF64 /* ConvoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvoViewController.swift; sourceTree = "<group>"; };
 		5581E7A224BE238600A964F4 /* MVPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPViewController.swift; sourceTree = "<group>"; };
 		5581E7A424BE23CB00A964F4 /* SoFloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoFloViewController.swift; sourceTree = "<group>"; };
 		5581E7A624BE23E800A964F4 /* CentralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +124,11 @@
 				5581E7A424BE23CB00A964F4 /* SoFloViewController.swift */,
 				5581E7A624BE23E800A964F4 /* CentralViewController.swift */,
 				5581E7A824BE23F600A964F4 /* PanhandleViewController.swift */,
+				55799A8924C0C370006AFF64 /* MessagesTableViewController.swift */,
+				55799A8B24C0C39F006AFF64 /* Messages.swift */,
+				55799A8D24C0C3D9006AFF64 /* NewMessageViewController.swift */,
+				55799A8F24C0C408006AFF64 /* ConvoViewController.swift */,
+				55335F7324C0EAFD004FCA86 /* BusinessPageViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -190,12 +205,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				5592268124BF599B00FB09D9 /* DesignableView.swift in Sources */,
+				55335F7424C0EAFD004FCA86 /* BusinessPageViewController.swift in Sources */,
 				5592268324BF777700FB09D9 /* StartingViewController.swift in Sources */,
 				5581E7A324BE238600A964F4 /* MVPViewController.swift in Sources */,
+				55799A8C24C0C39F006AFF64 /* Messages.swift in Sources */,
 				558D8E8E24BCBDDC00752C9B /* AppDelegate.swift in Sources */,
 				5592268524BF77AA00FB09D9 /* SignUpViewController.swift in Sources */,
 				5592268B24BFF20300FB09D9 /* BusinessTableViewCell.swift in Sources */,
+				55799A8E24C0C3D9006AFF64 /* NewMessageViewController.swift in Sources */,
+				55799A9024C0C408006AFF64 /* ConvoViewController.swift in Sources */,
 				5581E7A524BE23CB00A964F4 /* SoFloViewController.swift in Sources */,
+				55799A8A24C0C370006AFF64 /* MessagesTableViewController.swift in Sources */,
 				558D8E9824BCBDDC00752C9B /* Black_Out.xcdatamodeld in Sources */,
 				5581E7A724BE23E800A964F4 /* CentralViewController.swift in Sources */,
 				5592268824BFF16C00FB09D9 /* BusinessDB.swift in Sources */,
